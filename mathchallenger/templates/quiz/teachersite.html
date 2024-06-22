@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .center-content {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn {
+            width: 290px;
+            margin: 15px;
+        }
+    </style>
+    
+</head>
+<body class="p-4">
+    <div class="container center-content">
+        <h2 class="mb-4">Add Quizzes or View Student Performance</h2>
+        <p>Welcome to the teacher dashboard! Here you can manage your quiz questions and view the students' statistics.</p>
+        <a href="{% url 'add-question' %}" class="btn btn-primary btn-lg">Add a Question</a>
+        <a href="{% url 'leaderboard' %}" class="btn btn-primary btn-lg">View Leaderboard</a>
+        <a href="{% url 'participants' %}" class="btn btn-primary btn-lg">View Quiz Participants</a>
+    </div>
+</body>
+</html>

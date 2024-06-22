@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Level</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+        }
+        button {
+            display: inline-block;
+            padding: 20px 40px;
+            margin: 8px;
+            font-size: 25px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Choose your difficulty</h1>
+    
+    <div class="container">
+        <form action="{% url 'play-quiz' %}">
+        <button type="submit" name="skill" value="beginner">Beginner</button>
+        <button type="submit" name="skill" value="medium">Medium</button>
+        <button type="submit" name="skill" value="advanced">Advanced</button>
+        <button type="submit" name="skill" value="human_calculator">Human Calculator</button>
+    </form>
+    </div>
+</body>
+</html>

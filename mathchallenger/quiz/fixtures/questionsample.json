@@ -1,0 +1,957 @@
+[
+    {
+        "model": "quiz.quesmodel",
+        "pk": 81,
+        "fields": {
+            "question": "What is the definition of a prime number?",
+            "op1": "A number greater than 1 that has no positive divisors other than 1 and itself.",
+            "op2": "A number greater than 2 that has no positive divisors other than 1 and itself.",
+            "op3": "A number that can only be divided by 1 and 2.",
+            "op4": "A number that is divisible by 1 and itself.",
+            "ans": "A number greater than 1 that has no positive divisors other than 1 and itself.",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 82,
+        "fields": {
+            "question": "What is the formula for the area of a rectangle?",
+            "op1": "A = length * width",
+            "op2": "A = 2 * (length + width)",
+            "op3": "A = 0.5 * base * height",
+            "op4": "A = base * height",
+            "ans": "A = length * width",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 83,
+        "fields": {
+            "question": "What is the sum of the angles in a triangle?",
+            "op1": "180 degrees",
+            "op2": "360 degrees",
+            "op3": "90 degrees",
+            "op4": "270 degrees",
+            "ans": "180 degrees",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 84,
+        "fields": {
+            "question": "What is the largest prime number less than 20?",
+            "op1": "17",
+            "op2": "18",
+            "op3": "19",
+            "op4": "20",
+            "ans": "19",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 85,
+        "fields": {
+            "question": "What is the formula for the circumference of a circle?",
+            "op1": "C = pi * radius",
+            "op2": "C = 2 * pi * radius",
+            "op3": "C = pi * diameter",
+            "op4": "C = 0.5 * pi * diameter",
+            "ans": "C = 2 * pi * radius",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 86,
+        "fields": {
+            "question": "What is the sum of interior angles of a quadrilateral?",
+            "op1": "360 degrees",
+            "op2": "180 degrees",
+            "op3": "540 degrees",
+            "op4": "720 degrees",
+            "ans": "360 degrees",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 87,
+        "fields": {
+            "question": "What is the definition of the Pythagorean theorem?",
+            "op1": "a^2 + b^2 = c^2",
+            "op2": "a^2 + b^2 = d^2",
+            "op3": "a^3 + b^3 = c^3",
+            "op4": "a + b = c",
+            "ans": "a^2 + b^2 = c^2",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 88,
+        "fields": {
+            "question": "What is the definition of an acute angle?",
+            "op1": "An angle between 0 and 90 degrees.",
+            "op2": "An angle exactly 90 degrees.",
+            "op3": "An angle between 90 and 180 degrees.",
+            "op4": "An angle exactly 180 degrees.",
+            "ans": "An angle between 0 and 90 degrees.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 89,
+        "fields": {
+            "question": "What is the value of pi (π)?",
+            "op1": "3.14159",
+            "op2": "2.71828",
+            "op3": "1.61803",
+            "op4": "0.69315",
+            "ans": "3.14159",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 90,
+        "fields": {
+            "question": "What is the definition of a right triangle?",
+            "op1": "A triangle with one angle greater than 90 degrees.",
+            "op2": "A triangle with one angle exactly 90 degrees.",
+            "op3": "A triangle with all angles less than 90 degrees.",
+            "op4": "A triangle with all angles equal.",
+            "ans": "A triangle with one angle exactly 90 degrees.",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 4,
+        "fields": {
+            "question": "What is 5 + 7?",
+            "op1": "12",
+            "op2": "13",
+            "op3": "14",
+            "op4": "15",
+            "ans": "12",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 5,
+        "fields": {
+            "question": "What is the next number after 7?",
+            "op1": "8",
+            "op2": "9",
+            "op3": "10",
+            "op4": "11",
+            "ans": "8",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 6,
+        "fields": {
+            "question": "What is 15 / 3?",
+            "op1": "3",
+            "op2": "4",
+            "op3": "5",
+            "op4": "6",
+            "ans": "5",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 7,
+        "fields": {
+            "question": "What is 9 - 3?",
+            "op1": "5",
+            "op2": "6",
+            "op3": "7",
+            "op4": "8",
+            "ans": "6",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 8,
+        "fields": {
+            "question": "What is 8 + 2?",
+            "op1": "9",
+            "op2": "10",
+            "op3": "11",
+            "op4": "12",
+            "ans": "10",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 9,
+        "fields": {
+            "question": "Which number is even?",
+            "op1": "3",
+            "op2": "7",
+            "op3": "10",
+            "op4": "9",
+            "ans": "10",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 10,
+        "fields": {
+            "question": "What is 4 / 2?",
+            "op1": "1",
+            "op2": "2",
+            "op3": "3",
+            "op4": "4",
+            "ans": "2",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 11,
+        "fields": {
+            "question": "What is 5 + 5?",
+            "op1": "9",
+            "op2": "10",
+            "op3": "11",
+            "op4": "12",
+            "ans": "10",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 12,
+        "fields": {
+            "question": "What is 12 - 4?",
+            "op1": "6",
+            "op2": "7",
+            "op3": "8",
+            "op4": "9",
+            "ans": "8",
+            "difficulty": "beginner"
+        }
+    },
+  {
+        "model": "quiz.quesmodel",
+        "pk": 13,
+        "fields": {
+            "question": "What is 20 / 4?",
+            "op1": "4",
+            "op2": "5",
+            "op3": "6",
+            "op4": "7",
+            "ans": "5",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 91,
+        "fields": {
+            "question": "What is the formula for the volume of a sphere?",
+            "op1": "V = 4/3 * pi * r^3",
+            "op2": "V = 2/3 * pi * r^3",
+            "op3": "V = pi * r^2",
+            "op4": "V = 1/3 * pi * r^2 * h",
+            "ans": "V = 4/3 * pi * r^3",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 92,
+        "fields": {
+            "question": "What is the definition of a composite number?",
+            "op1": "A number greater than 1 that has no positive divisors other than 1 and itself.",
+            "op2": "A number greater than 1 that has at least one positive divisor other than 1 and itself.",
+            "op3": "A number that can only be divided by 1 and itself.",
+            "op4": "A number that is divisible by 1 and itself.",
+            "ans": "A number greater than 1 that has at least one positive divisor other than 1 and itself.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 93,
+        "fields": {
+            "question": "What is the formula for the sum of an arithmetic sequence?",
+            "op1": "S = n/2 * (a + l)",
+            "op2": "S = n * (a + l)/2",
+            "op3": "S = n * (2a + (n-1)d)/2",
+            "op4": "S = n/2 * (2a + (n-1)d)",
+            "ans": "S = n/2 * (a + l)",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 94,
+        "fields": {
+            "question": "What is the definition of a polygon?",
+            "op1": "A closed plane figure with at least three straight sides and angles.",
+            "op2": "A closed plane figure with exactly three straight sides and angles.",
+            "op3": "An open plane figure with at least three straight sides and angles.",
+            "op4": "An open plane figure with exactly three straight sides and angles.",
+            "ans": "A closed plane figure with at least three straight sides and angles.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 95,
+        "fields": {
+            "question": "What is the formula for the area of a trapezoid?",
+            "op1": "A = (base1 + base2) * height / 2",
+            "op2": "A = base1 * height",
+            "op3": "A = base2 * height",
+            "op4": "A = (base1 + base2) * height",
+            "ans": "A = (base1 + base2) * height / 2",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 96,
+        "fields": {
+            "question": "What is the definition of a line segment?",
+            "op1": "A straight line that extends infinitely in both directions.",
+            "op2": "A straight line with one endpoint.",
+            "op3": "A closed figure with straight sides.",
+            "op4": "A closed figure with curved sides.",
+            "ans": "A straight line with one endpoint.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 97,
+        "fields": {
+            "question": "What is the formula for the area of a circle?",
+            "op1": "A = pi * r^2",
+            "op2": "A = 2 * pi * r",
+            "op3": "A = pi * d",
+            "op4": "A = 0.5 * pi * d",
+            "ans": "A = pi * r^2",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 98,
+        "fields": {
+            "question": "What is the definition of the mean in statistics?",
+            "op1": "The middle value in a set of numbers.",
+            "op2": "The most frequent value in a set of numbers.",
+            "op3": "The sum of all values divided by the number of values.",
+            "op4": "The difference between the largest and smallest values in a set.",
+            "ans": "The sum of all values divided by the number of values.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 99,
+        "fields": {
+            "question": "What is the formula for the volume of a cylinder?",
+            "op1": "V = pi * r^2 * h",
+            "op2": "V = 2 * pi * r * h",
+            "op3": "V = 0.5 * pi * r * h",
+            "op4": "V = 4/3 * pi * r^3",
+            "ans": "V = pi * r^2 * h",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 100,
+        "fields": {
+            "question": "What is the definition of a ray in geometry?",
+            "op1": "A straight line that extends infinitely in both directions.",
+            "op2": "A straight line with one endpoint.",
+            "op3": "A closed figure with straight sides.",
+            "op4": "A closed figure with curved sides.",
+            "ans": "A straight line that extends infinitely in one direction.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 18,
+        "fields": {
+            "question": "What is the square root of 121?",
+            "op1": "11",
+            "op2": "12",
+            "op3": "13",
+            "op4": "14",
+            "ans": "11",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 22,
+        "fields": {
+            "question": "What is 9 * 7?",
+            "op1": "60",
+            "op2": "63",
+            "op3": "66",
+            "op4": "69",
+            "ans": "63",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 23,
+        "fields": {
+            "question": "What is 28 + 14?",
+            "op1": "40",
+            "op2": "41",
+            "op3": "42",
+            "op4": "43",
+            "ans": "42",
+            "difficulty": "beginner"
+        }
+    },
+  {
+        "model": "quiz.quesmodel",
+        "pk": 121,
+        "fields": {
+            "question": "What is the definition of a factorial?",
+            "op1": "The product of all positive integers less than or equal to a specified number.",
+            "op2": "The sum of all positive integers less than or equal to a specified number.",
+            "op3": "The difference of all positive integers less than or equal to a specified number.",
+            "op4": "The quotient of all positive integers less than or equal to a specified number.",
+            "ans": "The product of all positive integers less than or equal to a specified number.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 122,
+        "fields": {
+            "question": "What is the definition of a logarithm?",
+            "op1": "The exponent to which a base must be raised to produce a given number.",
+            "op2": "The base to which an exponent must be raised to produce a given number.",
+            "op3": "The base to which a number must be raised to produce a given exponent.",
+            "op4": "The exponent to which a number must be raised to produce a given base.",
+            "ans": "The exponent to which a base must be raised to produce a given number.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 123,
+        "fields": {
+            "question": "What is the definition of a quadratic equation?",
+            "op1": "An equation of the form ax^2 + bx + c = 0, where a, b, and c are constants.",
+            "op2": "An equation of the form ax + by = c, where a, b, and c are constants.",
+            "op3": "An equation of the form ax^3 + bx^2 + cx + d = 0, where a, b, c, and d are constants.",
+            "op4": "An equation of the form ax + by + cz = d, where a, b, c, and d are constants.",
+            "ans": "An equation of the form ax^2 + bx + c = 0, where a, b, and c are constants.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 24,
+        "fields": {
+            "question": "What is 30 - 12?",
+            "op1": "16",
+            "op2": "17",
+            "op3": "18",
+            "op4": "19",
+            "ans": "18",
+            "difficulty": "beginner"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 26,
+        "fields": {
+            "question": "What is the value of pi (π) up to two decimal places?",
+            "op1": "3.14",
+            "op2": "3.15",
+            "op3": "3.16",
+            "op4": "3.17",
+            "ans": "3.14",
+            "difficulty": "medium"
+        }
+    },
+  {
+        "model": "quiz.quesmodel",
+        "pk": 56,
+        "fields": {
+            "question": "What is 23 * 37?",
+            "op1": "807",
+            "op2": "851",
+            "op3": "867",
+            "op4": "851",
+            "ans": "851",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 111,
+        "fields": {
+            "question": "What is the definition of a twin prime?",
+            "op1": "A pair of prime numbers where each number is separated by 1.",
+            "op2": "A pair of prime numbers where each number is separated by 2.",
+            "op3": "A pair of prime numbers where each number is separated by 3.",
+            "op4": "A pair of prime numbers where each number is separated by 4.",
+            "ans": "A pair of prime numbers where each number is separated by 2.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 112,
+        "fields": {
+            "question": "What is the definition of a perfect number?",
+            "op1": "A number that is equal to the sum of its proper divisors.",
+            "op2": "A number that is equal to the product of its divisors.",
+            "op3": "A number that is equal to the difference of its divisors.",
+            "op4": "A number that is equal to the quotient of its divisors.",
+            "ans": "A number that is equal to the sum of its proper divisors.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 113,
+        "fields": {
+            "question": "What is the definition of a transcendental number?",
+            "op1": "A number that can be expressed as a ratio of two integers.",
+            "op2": "A number that is not a whole number.",
+            "op3": "A number that is not an irrational number.",
+            "op4": "A number that is not algebraic.",
+            "ans": "A number that is not algebraic.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 114,
+        "fields": {
+            "question": "What is the definition of a perfect square?",
+            "op1": "A number that is a square of an integer.",
+            "op2": "A number that is a product of two integers.",
+            "op3": "A number that is a cube of an integer.",
+            "op4": "A number that is a factorial of an integer.",
+            "ans": "A number that is a square of an integer.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 115,
+        "fields": {
+            "question": "What is the definition of a Mersenne prime?",
+            "op1": "A prime number of the form 2^n - 1.",
+            "op2": "A prime number of the form 2^n + 1.",
+            "op3": "A prime number of the form n^2 - 1.",
+            "op4": "A prime number of the form n^2 + 1.",
+            "ans": "A prime number of the form 2^n - 1.",
+            "difficulty": "human_calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 116,
+        "fields": {
+            "question": "What is the definition of a Pythagorean triple?",
+            "op1": "A set of three integers where each number is a square root of the others.",
+            "op2": "A set of three integers where each number is a multiple of the others.",
+            "op3": "A set of three integers where the sum of the squares of two numbers equals the square of the third.",
+            "op4": "A set of three integers where the product of two numbers equals the third.",
+            "ans": "A set of three integers where the sum of the squares of two numbers equals the square of the third.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 117,
+        "fields": {
+            "question": "What is the definition of a transcendental number?",
+            "op1": "A number that can be expressed as a ratio of two integers.",
+            "op2": "A number that is not a whole number.",
+            "op3": "A number that is not an irrational number.",
+            "op4": "A number that is not algebraic.",
+            "ans": "A number that is not algebraic.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 118,
+        "fields": {
+            "question": "What is the definition of a parabola?",
+            "op1": "A curve where any point is at an equal distance from a fixed point (focus) and a fixed line (directrix).",
+            "op2": "A curve where any point is at a varying distance from a fixed point (focus) and a fixed line (directrix).",
+            "op3": "A curve where any point is at a maximum distance from a fixed point (focus) and a fixed line (directrix).",
+            "op4": "A curve where any point is at a minimum distance from a fixed point (focus) and a fixed line (directrix).",
+            "ans": "A curve where any point is at an equal distance from a fixed point (focus) and a fixed line (directrix).",
+            "difficulty": "human_calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 119,
+        "fields": {
+            "question": "What is the definition of the harmonic mean?",
+            "op1": "The reciprocal of the arithmetic mean of reciprocals.",
+            "op2": "The reciprocal of the geometric mean of reciprocals.",
+            "op3": "The arithmetic mean of reciprocals.",
+            "op4": "The geometric mean of reciprocals.",
+            "ans": "The reciprocal of the arithmetic mean of reciprocals.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 58,
+        "fields": {
+            "question": "What is 345 * 12?",
+            "op1": "4140",
+            "op2": "4145",
+            "op3": "4146",
+            "op4": "4149",
+            "ans": "4140",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 124,
+        "fields": {
+            "question": "What is the definition of a geometric sequence?",
+            "op1": "A sequence where each term is the product of the two preceding ones.",
+            "op2": "A sequence where each term is the sum of the two preceding ones.",
+            "op3": "A sequence where each term is a constant multiple of the preceding one.",
+            "op4": "A sequence where each term is the difference of the two preceding ones.",
+            "ans": "A sequence where each term is a constant multiple of the preceding one.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 125,
+        "fields": {
+            "question": "What is the definition of a harmonic sequence?",
+            "op1": "A sequence where each term is the product of the two preceding ones.",
+            "op2": "A sequence where each term is the sum of the two preceding ones.",
+            "op3": "A sequence where each term is the reciprocal of an arithmetic progression.",
+            "op4": "A sequence where each term is the reciprocal of the geometric progression.",
+            "ans": "A sequence where each term is the reciprocal of an arithmetic progression.",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 60,
+        "fields": {
+            "question": "What is 789 * 5?",
+            "op1": "3945",
+            "op2": "3948",
+            "op3": "3951",
+            "op4": "3954",
+            "ans": "3945",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 61,
+        "fields": {
+            "question": "What is 456 * 789?",
+            "op1": "359784",
+            "op2": "359796",
+            "op3": "359808",
+            "op4": "359820",
+            "ans": "359784",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 62,
+        "fields": {
+            "question": "What is 888 / 37?",
+            "op1": "24",
+            "op2": "25",
+            "op3": "26",
+            "op4": "27",
+            "ans": "24",
+            "difficulty": "advanced"
+        }
+    },
+
+    {
+        "model": "quiz.quesmodel",
+        "pk": 64,
+        "fields": {
+            "question": "What is 99 * 88?",
+            "op1": "8722",
+            "op2": "8732",
+            "op3": "8742",
+            "op4": "8752",
+            "ans": "8712",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 65,
+        "fields": {
+            "question": "What is 555 / 5?",
+            "op1": "101",
+            "op2": "102",
+            "op3": "103",
+            "op4": "104",
+            "ans": "111",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 66,
+        "fields": {
+            "question": "What is 1234 * 5678?",
+            "op1": "7006652",
+            "op2": "7012345",
+            "op3": "7018765",
+            "op4": "7023456",
+            "ans": "7006652",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 67,
+        "fields": {
+            "question": "What is 876 / 4?",
+            "op1": "218",
+            "op2": "219",
+            "op3": "220",
+            "op4": "221",
+            "ans": "219",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 68,
+        "fields": {
+            "question": "What is 2345 * 6789?",
+            "op1": "15915255",
+            "op2": "15918045",
+            "op3": "15920635",
+            "op4": "15923425",
+            "ans": "15915255",
+            "difficulty": "advanced"
+        }
+    },
+
+    {
+        "model": "quiz.quesmodel",
+        "pk": 70,
+        "fields": {
+            "question": "What is 1111 * 8888?",
+            "op1": "9874568",
+            "op2": "9876548",
+            "op3": "9876546",
+            "op4": "9874567",
+            "ans": "9876548",
+            "difficulty": "advanced"
+        }
+    },
+  {
+        "model": "quiz.quesmodel",
+        "pk": 71,
+        "fields": {
+            "question": "What is 12345 * 6789?",
+            "op1": "83810255",
+            "op2": "83812345",
+            "op3": "83814255",
+            "op4": "83816545",
+            "ans": "83810255",
+            "difficulty": "human calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 72,
+        "fields": {
+            "question": "What is 98765 / 567?",
+            "op1": "174",
+            "op2": "175",
+            "op3": "176",
+            "op4": "177",
+            "ans": "174",
+            "difficulty": "human calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 73,
+        "fields": {
+            "question": "What is 87654 * 321?",
+            "op1": "28139574",
+            "op2": "28164574",
+            "op3": "28189574",
+            "op4": "28214574",
+            "ans": "28139574",
+            "difficulty": "human calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 74,
+        "fields": {
+            "question": "What is 54321 + 98765?",
+            "op1": "153086",
+            "op2": "153086",
+            "op3": "153086",
+            "op4": "153086",
+            "ans": "153086",
+            "difficulty": "human calculator"
+        }
+    },
+
+    {
+        "model": "quiz.quesmodel",
+        "pk": 76,
+        "fields": {
+            "question": "What is 123456 * 789?",
+            "op1": "97453184",
+            "op2": "97456184",
+            "op3": "97459184",
+            "op4": "97462184",
+            "ans": "97456184",
+            "difficulty": "human calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 77,
+        "fields": {
+            "question": "What is 876543 / 321?",
+            "op1": "2730",
+            "op2": "2735",
+            "op3": "2740",
+            "op4": "2745",
+            "ans": "2730",
+            "difficulty": "human calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 127,
+        "fields": {
+            "question": "What is the definition of an arithmetic progression (AP)?",
+            "op1": "A sequence where each term is the product of the two preceding ones.",
+            "op2": "A sequence where each term is the sum of the two preceding ones.",
+            "op3": "A sequence where each term is a constant multiple of the preceding one.",
+            "op4": "A sequence where each term is the difference of the two preceding ones.",
+            "ans": "A sequence where each term is the sum of the two preceding ones.",
+            "difficulty": "human_calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 128,
+        "fields": {
+            "question": "What is the definition of a perfect cube?",
+            "op1": "A number that is a cube of an integer.",
+            "op2": "A number that is a product of two integers.",
+            "op3": "A number that is a square of an integer.",
+            "op4": "A number that is a factorial of an integer.",
+            "ans": "A number that is a cube of an integer.",
+            "difficulty": "medium"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 129,
+        "fields": {
+            "question": "What is the definition of a tetrahedron?",
+            "op1": "A polyhedron with six faces.",
+            "op2": "A polyhedron with four faces.",
+            "op3": "A polyhedron with five faces.",
+            "op4": "A polyhedron with three faces.",
+            "ans": "A polyhedron with four faces.",
+            "difficulty": "human_calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 130,
+        "fields": {
+            "question": "What is the definition of a prime triplet?",
+            "op1": "A set of three prime numbers where each number is greater than the previous by 2.",
+            "op2": "A set of three prime numbers where each number is greater than the previous by 3.",
+            "op3": "A set of three prime numbers where each number is greater than the previous by 4.",
+            "op4": "A set of three prime numbers where each number is greater than the previous by 5.",
+            "ans": "A set of three prime numbers where each number is greater than the previous by 2.",
+            "difficulty": "human_calculator"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 79,
+        "fields": {
+            "question": "What is 12345 / 123?",
+            "op1": "100",
+            "op2": "101",
+            "op3": "102",
+            "op4": "103",
+            "ans": "100",
+            "difficulty": "advanced"
+        }
+    },
+    {
+        "model": "quiz.quesmodel",
+        "pk": 80,
+        "fields": {
+            "question": "What is 87654321 - 12345678?",
+            "op1": "75208643",
+            "op2": "75208643",
+            "op3": "75208643",
+            "op4": "75208643",
+            "ans": "75208643",
+            "difficulty": "human calculator"
+        }
+    },
+  {
+        "model": "quiz.quesmodel",
+        "pk": 120,
+        "fields": {
+            "question": "What is the definition of the golden ratio (phi)?",
+            "op1": "A ratio where the sum of two quantities is to the larger quantity as the larger quantity is to the smaller one.",
+            "op2": "A ratio where the product of two quantities is equal to the square of the larger quantity.",
+            "op3": "A ratio where the ratio of two quantities is equal to the square of the larger quantity.",
+            "op4": "A ratio where the quotient of two quantities is equal to the square of the larger quantity.",
+            "ans": "A ratio where the sum of two quantities is to the larger quantity as the larger quantity is to the smaller one.",
+            "difficulty": "human_calculator"
+        }
+    }
+
+
+
+]

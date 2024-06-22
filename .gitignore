@@ -1,0 +1,11 @@
+.idea/
+.pytest_cache/
+mathchallenger/.venv/
+__pycache__/
+db.sqlite3
+.coverage
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env

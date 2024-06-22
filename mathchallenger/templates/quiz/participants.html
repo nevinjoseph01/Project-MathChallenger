@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Participants</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">View Participants</h1>
+
+        <h2>Beginner</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Average</th>
+                    <th>Entries</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stat in beginner_stats %}
+                <tr>
+                    <td>{{ stat.user.username }}</td>
+                    <td>{{ stat.average }}%</td>
+                    <td>{{ stat.entries }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h2>Medium</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Average</th>
+                    <th>Entries</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stat in medium_stats %}
+                <tr>
+                    <td>{{ stat.user.username }}</td>
+                    <td>{{ stat.average }}%</td>
+                    <td>{{ stat.entries }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h2>Advanced</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Average</th>
+                    <th>Entries</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stat in advanced_stats %}
+                <tr>
+                    <td>{{ stat.user.username }}</td>
+                    <td>{{ stat.average }}%</td>
+                    <td>{{ stat.entries }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h2>Human Calculator</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Average</th>
+                    <th>Entries</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stat in human_calculator_stats %}
+                <tr>
+                    <td>{{ stat.user.username }}</td>
+                    <td>{{ stat.average }}%</td>
+                    <td>{{ stat.entries }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+ <div class="container mt-5">
+    <h2 class="mb-4">Sign up</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <label for="user_type">I am a:</label><br>
+        <input type="radio" id="teacher" name="user_type" value="teacher">
+        <label for="teacher">Teacher</label><br>
+        <input type="radio" id="student" name="user_type" value="student">
+        <label for="student">Student</label><br>
+        <button type="submit">Register</button>
+    </form>
+    {% if form.errors %}
+        <ul>
+        {% for field in form %}
+            {% for error in field.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        {% endfor %}
+        {% for error in form.non_field_errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+  </div>
+</body>
+</html>

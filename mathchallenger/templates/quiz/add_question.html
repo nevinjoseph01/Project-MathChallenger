@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Question</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 25px
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Add Question</h2>
+        <form method="POST">
+            {% csrf_token %}
+            {% if errors %}
+                <div class="alert alert-danger">
+                    <ul>
+                        {% for error in errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+
+            <label>Question:</label><br>
+            <input type="text" name="question"><br>
+
+            <label>Option 1:</label><br>
+            <input type="text" name="op1"><br>
+
+            <label>Option 2:</label><br>
+            <input type="text" name="op2"><br>
+
+            <label>Option 3:</label><br>
+            <input type="text" name="op3"><br>
+
+            <label>Option 4:</label><br>
+            <input type="text" name="op4"><br>
+
+            <label>Answer:</label><br>
+
+            <input type="text" name="ans"><br>
+              <label for="difficulty">Difficulty:</label>
+            <select id="difficulty" name="difficulty" required>
+                <option value="beginner">Beginner</option>
+                <option value="medium">Medium</option>
+                <option value="advanced">Advanced</option>
+                <option value="human_calculator">Human Calculator</option>
+            </select>
+            <button type="submit">Add Question</button>
+
+        </form>
+    </div>
+</body>
+</html>
