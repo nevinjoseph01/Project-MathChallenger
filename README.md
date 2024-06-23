@@ -79,6 +79,22 @@ Math Challenger is a web-based application that is designed to provide an engagi
 pytest
 ```
 
+
+## Database Management
+
+- The questions, statistic, leaderboard and profile objects that are stored in the database, can only be fully managed by an admin user (i.e. deleting a question or a user from the database). After changing to the directory 'mathchallenger' where manage.py is located, create an admin user and follow the prompts in the terminal:
+
+```bash
+python manage.py createsuperuser
+```
+
+- Finally run the server and visit the url 'http://127.0.0.1:8000/admin/' where the admin can login and manage the db
+  
+```bash
+python manage.py runserver
+```
+
+Note: The admin is only able to access the database, but can't access the functionalities of the quiz since the admin doesn't have a profile (student/teacher) assigned.
   
   
 
