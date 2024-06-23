@@ -65,6 +65,9 @@ Math Challenger is a web-based application that is designed to provide an engagi
   ```
 
 - 7.) Finally run the development server and visit 'http://127.0.0.1:8000/'
+  ```bash
+  python manage.py runserver
+  ```
   
   
 
