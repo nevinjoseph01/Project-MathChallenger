@@ -29,7 +29,7 @@ Math Challenger is a web-based application that is designed to provide an engagi
 
 - 1.)  Either download as a zip file or clone with the following command:
   ```bash
-  git clone https://github.com/nevinjoseph01/Nevin_Assignment2.git
+  git clone https://github.com/nevinjoseph01/Project-MathChallenger.git
   ```
 - 2.)  Once this repository is cloned or downloaded, create the virtual environment in the root directory of 'mathchallenger' i.e. 'Nevin_Assignment2-main':
   (note: if a venv appears to be active already after cloning the repo, use the command 'deactivate')
